@@ -2,14 +2,29 @@
 *{ 
     padding: 0;
     margin: 0;
+    color: black;
+        font-family: 'Oswald', sans-serif
 }
 header{ 
 background-color: yellow;
 margin: 0px;
-padding: 15px;
+padding-bottom: -1px;
 margin-top: 0px;
 margin-left: 0px;
 margin-right: 0px;
+}
+.navegador{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.flexNav{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navLogo{
+   padding: 0px;
 }
 .subtitulos{
     padding: 10px;
@@ -27,7 +42,7 @@ border: 5px solid black;
     margin-bottom: 0;
 } 
 section{
-    background-color: yellow;
+    background-color: white;
     font-size: large;
     color: black;
     margin-top: 15px;
@@ -38,7 +53,11 @@ a{
 }
 nav ul li{
     list-style-type: none;
-    display: inline-block;
+    display: inline-flex;
+}
+.flexNav li a{
+    padding: 10px 95px 0px 100px;
+
 }
 p{
     color: black;
@@ -46,10 +65,85 @@ p{
     padding-bottom: 15px;
     margin: 0px;
 }
-.imagen{
-    background-color: yellow;
-    margin: 50px 50px 50px 50px;
-   height: 300px;
-   width: 310px;
-    border: inset black 5px;
+.blanco{
+background-color: white ;
+}
+
+.blanco-dos{
+background-color: white;
+}
+
+.grids{
+    display: grid;
+ grid-gap: 30px;
+ border: 1px solid black;
+}
+
+.grid-product{
+    display: grid;
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    padding-left: 600px;
+    justify-content: center;
+}
+
+@media (max-width:480px){
+    h1{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+    .flexNav{
+        display: table;
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        padding-right: 100px;
+        background-color: yellow;
+       justify-content: start;
+       align-items: flex-start;
+        padding-top: 10px;
+    }
+   .navegador{
+       display: table;
+    padding-left: 25px;
+   }
+    .navLogo{
+        width: 100px;
+        height: 100px;
+        z-index: 3px;
+        margin-top: -10px;
+    }
+    
+    p{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px; 
+    }
+    h2{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+    h3{color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+    h4{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+    h5{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+    h6{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
 }
