@@ -6,7 +6,7 @@
         font-family: 'Oswald', sans-serif
 }
 header{ 
-background-color: yellow;
+background-color:  #fff;
 margin: 0px;
 padding-bottom: -1px;
 margin-top: 0px;
@@ -38,7 +38,7 @@ font-family: 'Oswald', sans-serif;
 border: 5px solid black;
 }
 .subtitulosDos{
-    background-color: yellow;
+    background-color:  #FFCC00;
     margin-top: 160;
 } 
 section{
@@ -106,7 +106,7 @@ justify-content: center;
 }
 
 .animacion{
-    background: yellow;
+    background: rgb(235, 235, 13);
     width: 300px;
     height: 200px;
     margin: 20px;
@@ -119,6 +119,37 @@ justify-content: center;
 width: 400px;
 }
 
+.rellenar{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.figurita{
+    text-align: center;
+}
+
+.figurita-caption{
+    color: black;
+    font-size: 25px;
+}
+
+.figurita{
+    margin: 50px;
+    margin-top: 0px;
+    overflow: hidden;
+    background:  #fff;
+    box-shadow: 0px 1px 10px rgba(15, 15, 15, 0.8586);
+cursor: default;
+transition: all 400ms ease;
+}
+
+.figurita:hover{
+    transform: translateY(-3%);
+    cursor: pointer;
+    box-shadow: 0px 1px 10px rgba(15, 15, 15, 7)
+}
+
+
 @media (max-width:480px){
     h1{
         color: black;
@@ -130,7 +161,7 @@ width: 400px;
         color: black;
         font-family: 'Oswald', sans-serif;
         padding-right: 100px;
-        background-color: yellow;
+        background-color:  #FFCC00;
        justify-content: start;
        align-items: flex-start;
         padding-top: 10px;
