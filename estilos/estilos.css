@@ -3,16 +3,25 @@
     padding: 0;
     margin: 0;
     color: black;
+box-sizing: border-box;
         font-family: 'Oswald', sans-serif
 }
 header{ 
-background-color:  #fff;
+background-color: whitesmoke;
 margin: 0px;
 padding-bottom: -1px;
 margin-top: 0px;
 margin-left: 0px;
 margin-right: 0px;
 }
+
+body{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    position: relative;
+    padding-bottom: 50vh;
+}
+
 .navegador{
     display: inline-flex;
     justify-content: space-between;
@@ -38,17 +47,34 @@ font-family: 'Oswald', sans-serif;
 border: 5px solid black;
 }
 .subtitulosDos{
-    background-color:  #FFCC00;
+    background-color: #FFC300;
     margin: 0px;
+    margin-top: 50px;
 } 
+.first-extend{
+margin-top: 50px;
+margin-right: 50px;
+text-decoration: underline;
+}
 footer{
     margin: 0px;
     padding: 0px;
    display: flex;
    align-content: flex-end;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+.redes{ 
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+   text-decoration: none;
+   list-style-type: none; 
 }
 section{
-    background-color: white;
+    background-color: whitesmoke;
     font-size: large;
     color: black;
     margin-top: 15px;
@@ -72,11 +98,14 @@ p{
     margin: 0px;
 }
 .blanco{
-    
+background-color: whitesmoke;  
 }
 
 .blanco-dos{
-background-color: white;
+background-color: whitesmoke;
+}
+.contac-style{
+    font-weight: bold ;
 }
 .info{
     grid-area: info;
@@ -112,6 +141,22 @@ justify-content: center;
       ". sanitario grid-product info ."
       ". pintura grid-product info .";
 }
+.card-animation{
+    cursor: default;
+  overflow: hidden;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  -webkit-box-shadow: 0px 1px 10px black;
+          box-shadow: 0px 1px 10px black;
+}
+
+.card-animation:hover{
+    -webkit-transform: translateY(-3%);
+          transform: translateY(-3%);
+  cursor: pointer;
+  -webkit-box-shadow: 0px 1px 10px black;
+          box-shadow: 0px 1px 10px black;
+}
 
 .animacion{
     background: rgb(235, 235, 13);
@@ -123,10 +168,9 @@ justify-content: center;
 }
 
 .animacion:hover{
-    background: orangered;
+    background: #FFCC00;
 width: 400px;
 }
-
 .rellenar{
     margin-left: 10px;
     margin-top: 20px;
@@ -145,7 +189,7 @@ width: 400px;
     margin: 50px;
     margin-top: 0px;
     overflow: hidden;
-    background:  #fff;
+    background:  whitesmoke;
     box-shadow: 0px 1px 10px rgba(15, 15, 15, 0.8586);
 cursor: default;
 transition: all 400ms ease;
@@ -156,9 +200,49 @@ transition: all 400ms ease;
     cursor: pointer;
     box-shadow: 0px 1px 10px rgba(15, 15, 15, 7)
 }
-
+.contact-us{
+    font-size: x-large;
+    font-weight: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: space-around ;
+}
+.contacto{
+    padding-bottom: 30px;
+    padding-left: 150px;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+}
+.back-to-work{
+    width: 600px;
+    height: 500px;
+    margin-left: 300px;
+    background-image: -moz-element(whitesmoke);
+}
+.num-contact{
+    margin-top: 50px;
+font-weight: bold;
+text-align: center;
+text-decoration: underline;
+}
+.num{
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+}
 
 @media (max-width:480px){
+    *{
+        margin-bottom: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        box-sizing: border-box;
+    }
     h1{
         color: black;
         font-family: 'Oswald', sans-serif;
@@ -214,4 +298,17 @@ transition: all 400ms ease;
         font-family: 'Oswald', sans-serif;
         font-size: 30px;
     }
+    .ubicacion{
+        height: 40vh;
+        width: 40vh;
+        margin-bottom: auto;
+    }
+   
+    .back-to-work{
+        margin-top: 50px;
+        margin-left: 100px;
+        height: 300px;
+        width: 250px;
+    }
 }
+

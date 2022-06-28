@@ -1,60 +1,6 @@
-$bghorario1: white;
-$colorhorario1: blueviolet; 
-
 *{
     padding: 0;
     margin: 0;
     color: black;
     font-family: 'Oswald', sans-serif;
-}
-
-$first-extend: (
-    artic-const:red,
-    artic-cer: blue,
-    artic-sani: violet,
-    artic-pint: green,
-);
-$artic-const: map-get($first-extend, artic-const);
-$artic-cer: map-get($first-extend, artic-cer);
-$artic-sani: map-get($first-extend, artic-sani);
-$artic-pint: map-get($first-extend , artic-pint);
-
-h2{
-color:$artic-const;
-}
-h3{
-color:$artic-cer;
-}
-h4{
-color:$artic-sani;
-}
-h5{
-color:$artic-pint;
-}
-.first-extend{
-    font-size: xx-large;
-    
-}
-.artic-const{
-    @extend .first-extend;
-}
-.artic-cer{
-    @extend .first-extend;
-}
-.artic-sani{
-    @extend .first-extend;
-}
-.artic-pint{
-    @extend .first-extend;
-}
-
-@mixin estiloHorario($color,$bg){
-    background-color: $bg;
-color: $color;
-}
-.blanco{
-    @include estiloHorario($bghorario1,$colorhorario1)
-}
-.blaco-dos{
-@include estiloHorario($bghorario1,$colorhorario1)
 }
