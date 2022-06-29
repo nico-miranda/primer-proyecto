@@ -1,0 +1,78 @@
+@media (max-width:480px){
+    *{
+        margin-bottom: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        box-sizing: border-box;
+    }
+    h1{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+    .flexNav{
+        display: table;
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        padding-right: 100px;
+        background-color:  #FFCC00;
+       justify-content: start;
+       align-items: flex-start;
+        padding-top: 10px;
+    }
+   .navegador{
+       display: table;
+    padding-left: 25px;
+   }
+    .navLogo{
+        width: 100px;
+        height: 100px;
+        z-index: 3px;
+        margin-top: -10px;
+    }
+    
+    p{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px; 
+    }
+    h2{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+    h3{color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+    h4{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+    h5{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+    h6{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+    }
+    .ubicacion{
+        height: 40vh;
+        width: 40vh;
+        margin-bottom: auto;
+    }
+   
+    .back-to-work{
+        margin-top: 50px;
+        margin-left: 100px;
+        height: 300px;
+        width: 250px;
+    }
+}

@@ -1,0 +1,133 @@
+.navegador{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.flexNav{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navLogo{
+   padding: 0px;
+}
+.subtitulos{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 1600px;
+    color: black;
+font-weight: bolder;
+font-size: 30px;
+font-family: 'Oswald', sans-serif;
+border: 5px solid black;
+}
+.subtitulosDos{
+    background-color: #FFC300;
+    margin: 0px;
+    margin-top: 50px;
+} 
+.first-extend{
+margin-top: 50px;
+margin-right: 50px;
+text-decoration: underline;
+}
+.redes{ 
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+   text-decoration: none;
+   list-style-type: none; 
+}
+.flexNav li a{
+    padding: 10px 95px 0px 100px;
+
+}
+.blanco{
+background-color: whitesmoke;  
+}
+
+.blanco-dos{
+background-color: whitesmoke;
+}
+.contac-style{
+    font-weight: bold ;
+}
+.info{
+    grid-area: info;
+}
+.body-articulo{
+    overflow-x: hidden;
+}
+.grid1{
+   grid-area: grid1;
+}
+.grid2{
+    grid-area: grid2;
+}
+.grid3{
+    grid-area: grid3
+}
+.grid4{
+    grid-area: grid4;
+}
+.grid5{
+    grid-area: grid5;
+}
+.padre{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+justify-content: center;
+    grid-template-areas: 
+      ". electricidad grid-product info ."
+      ". construccion grid-product info ."
+      ". cerrajeria grid-product info ."
+      ". sanitario grid-product info ."
+      ". pintura grid-product info .";
+}
+.rellenar{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.figurita{
+    text-align: center;
+}
+.figurita-caption{
+    color: black;
+    font-size: 25px;
+}
+.contact-us{
+    font-size: x-large;
+    font-weight: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: space-around ;
+}
+.contacto{
+    padding-bottom: 30px;
+    padding-left: 150px;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+}
+.back-to-work{
+    width: 600px;
+    height: 500px;
+    margin-left: 300px;
+    background-image: -moz-element(whitesmoke);
+}
+.num-contact{
+    margin-top: 50px;
+font-weight: bold;
+text-align: center;
+text-decoration: underline;
+}
+.num{
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+}

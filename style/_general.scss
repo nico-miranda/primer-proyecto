@@ -2,11 +2,6 @@
     padding: 0;
     margin: 0;
     color: black;
-    font-family: 'Oswald', sans-serif
-}
-.first-extend{
-    color: yellow;
-}
-.artic-const {
-    @extend .first-extend
+box-sizing: border-box;
+        font-family: 'Oswald', sans-serif
 }
