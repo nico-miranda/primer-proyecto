@@ -4,6 +4,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+     
     }
     body{
         box-sizing: border-box;
@@ -74,5 +75,15 @@
         margin-left: 100px;
         height: 300px;
         width: 250px;
+    }
+    .carrusel{
+        position: relative;
+        left: 20px;
+    }
+    .back-to-work{
+        width: 400px;
+        height: 300px;
+      margin: 0;
+       padding-top: 10px;
     }
 }

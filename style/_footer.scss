@@ -2,8 +2,19 @@ footer{
     margin: 0px;
     padding: 0px;
    display: flex;
-   align-content: flex-end;
+   align-content: center;
    position: absolute;
    bottom: 0;
    width: 100%; 
+   div{
+    display: flex;
+    justify-content: center;
+
+   }
+   p{
+    text-align: center;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: bold;
+   }
 }
